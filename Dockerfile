@@ -11,6 +11,3 @@ sed -i -e '0,/include/!b;//a \ \ \ \ include perfect-forward-secrecy.conf;' ngin
 
 RUN cd /etc/nginx && \
     openssl dhparam -out dh4096.pem 4096
-
-
-
