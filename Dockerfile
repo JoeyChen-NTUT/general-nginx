@@ -6,7 +6,6 @@ RUN export DEBIAN_FRONTEND=noninteractive
 
 RUN apt clean
 RUN apt update
-RUN apt install -y wget
 
 VOLUME ["/etc/nginx"]
 
