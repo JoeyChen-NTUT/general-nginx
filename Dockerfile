@@ -1,5 +1,5 @@
 FROM nginx:latest
-#20230801 tigger docker image update
+#20240609 tigger docker image update
 
 RUN export DEBIAN_FRONTEND=noninteractive
 
